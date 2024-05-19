@@ -4,10 +4,9 @@ import java.util.Scanner;
 public class ContaTerminal{
 
     public static void main(String[] args) throws Exception{
-      //TODO: Conhecer e importar a classe Scanner
+      
       Scanner scanner = new Scanner(System.in);
 
-      //TODO: Exibir as mensagens para nosso usuário
       System.out.println("Digite o número  de sua Agência:");
       String agencia = scanner.nextLine();
 
@@ -26,8 +25,7 @@ public class ContaTerminal{
       System.out.println(mensagem);
 
       scanner.close();
-
-      //Obter pela scanner os valores digitados no terminal
-}
+    
+    }
 
 }
